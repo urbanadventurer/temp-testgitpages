@@ -3,6 +3,21 @@
 Testing subdomain hijacking
 
 123456
-<script src="js/main.js" type="text/javascript"></script>
+
+<div id="p1"></div>
+
+<script type="text/javascript">
+function listCookies() {
+    var theCookies = document.cookie.split(';');
+    var aString = '';
+    for (var i = 1 ; i <= theCookies.length; i++) {
+        aString += i + ' ' + theCookies[i-1] + "\n";
+    }
+    return aString;
+}
+
+document.getElementById("p1").innerHTML = listCookies();
+
+</script>
 123
 

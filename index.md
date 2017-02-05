@@ -3,5 +3,6 @@
 Testing subdomain hijacking
 
 123456
-
+<script src="js/main.js" type="text/javascript"></script>
+123
 

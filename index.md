@@ -1,4 +1,4 @@
-## Welcome to the unofficial SMTP2Go Blog
+## Welcome
 
 Testing subdomain hijacking
 
